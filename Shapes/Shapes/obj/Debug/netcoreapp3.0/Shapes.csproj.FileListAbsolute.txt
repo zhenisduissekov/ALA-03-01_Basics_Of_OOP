@@ -1,0 +1,11 @@
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/bin/Debug/netcoreapp3.0/Shapes
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/bin/Debug/netcoreapp3.0/Shapes.deps.json
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/bin/Debug/netcoreapp3.0/Shapes.runtimeconfig.json
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/bin/Debug/netcoreapp3.0/Shapes.runtimeconfig.dev.json
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/bin/Debug/netcoreapp3.0/Shapes.dll
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/bin/Debug/netcoreapp3.0/Shapes.pdb
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/obj/Debug/netcoreapp3.0/Shapes.csprojAssemblyReference.cache
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/obj/Debug/netcoreapp3.0/Shapes.AssemblyInfoInputs.cache
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/obj/Debug/netcoreapp3.0/Shapes.AssemblyInfo.cs
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/obj/Debug/netcoreapp3.0/Shapes.dll
+/Users/zhenis/Projects/ALA-03-01_Basics_of_OOP/Shapes/Shapes/obj/Debug/netcoreapp3.0/Shapes.pdb
