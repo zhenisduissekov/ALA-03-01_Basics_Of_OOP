@@ -1,15 +1,30 @@
 ﻿<Properties StartupConfiguration="{5B30B77C-F4D9-42C9-9752-DF9A24174F26}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Polynomial/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PolynomTests/PolynomTests.cs">
     <Files>
-      <File FileName="Polynomial/Program.cs" Line="22" Column="1" />
-      <File FileName="Polynomial/EmptyClass.cs" Line="36" Column="42" />
+      <File FileName="Polynomial/Program.cs" Line="46" Column="38" />
+      <File FileName="Polynomial/Polynom.cs" Line="174" Column="10" />
+      <File FileName="PolynomTests/UnitTest1.cs" Line="59" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Polynomial" expanded="True">
-            <Node name="Polynomial" expanded="True">
-              <Node name="Program.cs" selected="True" />
+            <Node name="Polynomial" expanded="True" />
+            <Node name="PolynomialTests" expanded="True">
+              <Node name="PolynomTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Polynomial" expanded="True">
+            <Node name="PolynomialTests" expanded="True">
+              <Node name="PolynomialTests" expanded="True">
+                <Node name="PolynomTests" expanded="True">
+                  <Node name="CheckSubstractionMethod" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

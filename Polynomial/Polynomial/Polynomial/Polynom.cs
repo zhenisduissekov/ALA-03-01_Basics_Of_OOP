@@ -2,6 +2,9 @@
 // <copyright file="Polynom.cs" company="EPAM">
 //     Copyright (c) Sprocket Enterprises. All rights reserved.
 // </copyright>
+// while making this code, I was reading lots of webpages including this:
+// https://studassistent.ru/charp/realizaciya-klassa-predstavlyayuschego-mnogochlen-c
+// which heavily affect my code while redoing it properly
 // <author>Zhenis Duissekov</author>
 //-----------------------------------------------------------------------
 
@@ -24,12 +27,8 @@ namespace Polynom
         /// <param name="a"></param>
         public Polynom(int a)
         {
-            Console.Write("q");
-            SetN = a;
-            Console.Write("q");
-            Console.Write(a);
+            SetN = a;   
             SetArray = new double[a];
-            Console.Write("q");
         }
 
         /// <summary>
@@ -93,23 +92,11 @@ namespace Polynom
         }
 
         /// <summary>
-        /// this method overrides general method Equals from Object
-        /// and checks if two polynoms are equal
-        /// </summary>
-        /// <returns>boolean for equal or not</returns>
-        public override bool Equals(object obj)
-        {
-              if (obj == null || GetType() != obj.GetType()) return false;
-              Polynom p = (Polynom)obj;
-              return (n == p.n);
-        }
-        
-
-        /// <summary>
         /// method that uses coefficients and power to create a string of polynomial
         /// </summary>
         /// <returns>string polynomial</returns>
-        public string OutputPolynom()
+        //public string OutputPolynom()
+        public override string ToString()
         {
             double EPSILON = 0.0001;
             string str = string.Empty;
@@ -180,8 +167,7 @@ namespace Polynom
                 str = str + str_coef + str_pow;
                 i--;
             }
-
-            return str;
+            return (str == "") ? "0" : str;
         }
 
         public void SubtractPolynom(Polynom a, Polynom b)
@@ -192,9 +178,62 @@ namespace Polynom
             Polynom result = new Polynom(max_size);
         }
 
-        public void AddPolynom(Polynom a, Polynom b)
+        public static Polynom operator +(Polynom a, Polynom b)
         {
-            throw new NotImplementedException();
+            Polynom max_polynom = (a.array.Length >= b.array.Length) ? a : b;
+            Polynom min_polynom = (a.array.Length < b.array.Length) ? a : b;
+            Polynom result = new Polynom(max_polynom.array);
+
+
+            for (int i = 0; i < min_polynom.array.Length; i++)
+            {
+                result.array[max_polynom.array.Length - min_polynom.array.Length + i] = min_polynom.array[i] + max_polynom.array[max_polynom.array.Length - min_polynom.array.Length + i];
+            }
+            return result;
+        }
+
+        public static Polynom operator -(Polynom a, Polynom b)
+        {
+            Polynom max_polynom = (a.array.Length >= b.array.Length) ? a : b;
+            Polynom min_polynom = (a.array.Length < b.array.Length) ? a : b;
+            if (max_polynom == b)
+            {
+                max_polynom *= -1;
+            }
+            else
+            {
+                min_polynom *= -1;
+            }
+
+            Polynom result = min_polynom + max_polynom;
+
+            return result;
+        }
+
+
+        public static Polynom operator *(Polynom a, double c)
+        {
+            Polynom result = new Polynom(a.array);
+
+            for (int i = 0; i< a.array.Length; i++)
+            {
+
+                result.array[i] *= c; 
+            }
+
+            return result;
+        }
+
+
+        public double CalculatePolynom(double x)
+        {
+            int len = this.array.Length - 1;
+            double res = this.array[len];
+            for (int i = 0; i < len; i++)
+            {
+                res += this.array[i] * Math.Pow(x, i); 
+            }
+            return res;
         }
     }
 }
