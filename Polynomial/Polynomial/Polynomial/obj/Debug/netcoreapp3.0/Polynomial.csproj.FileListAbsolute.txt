@@ -1,0 +1,11 @@
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/bin/Debug/netcoreapp3.0/Polynomial
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/bin/Debug/netcoreapp3.0/Polynomial.deps.json
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/bin/Debug/netcoreapp3.0/Polynomial.runtimeconfig.json
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/bin/Debug/netcoreapp3.0/Polynomial.runtimeconfig.dev.json
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/bin/Debug/netcoreapp3.0/Polynomial.dll
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/bin/Debug/netcoreapp3.0/Polynomial.pdb
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/obj/Debug/netcoreapp3.0/Polynomial.csprojAssemblyReference.cache
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/obj/Debug/netcoreapp3.0/Polynomial.AssemblyInfoInputs.cache
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/obj/Debug/netcoreapp3.0/Polynomial.AssemblyInfo.cs
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/obj/Debug/netcoreapp3.0/Polynomial.dll
+/Users/zhenis/Projects/ALA-03-01_Basics_Of_OOP/Polynomial/Polynomial/Polynomial/obj/Debug/netcoreapp3.0/Polynomial.pdb

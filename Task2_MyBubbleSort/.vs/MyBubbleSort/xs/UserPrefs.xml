@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{A931B298-6307-4E32-8903-E04AA7798E49}|Default">
+  <MonoDevelop.Ide.ItemProperties.TestMS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Task2_MyBubbleSort/Program.cs">
+    <Files>
+      <File FileName="Task2_MyBubbleSort/ArraySort.cs" Line="38" Column="32" />
+      <File FileName="Task2_MyBubbleSort/ArrayManipulations.cs" />
+      <File FileName="ArrayManipulationsTests/ArraySortTests.cs" />
+      <File FileName="Task2_MyBubbleSort/Program.cs" Line="52" Column="1" />
+      <File FileName="ArrayManipulationsTests/ArraySortTestsDDT.cs" Line="16" Column="90" />
+      <File FileName="TestMS/UnitTest1.cs" Line="24" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyBubbleSort" expanded="True">
+            <Node name="ArrayManipulationsTests" expanded="True" />
+            <Node name="MyBubbleSort" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="NUnitBstest" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="TestMS" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyBubbleSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NUnitBstest FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
